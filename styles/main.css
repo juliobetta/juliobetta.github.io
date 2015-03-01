@@ -1,7 +1,7 @@
 html, body {
   font-family: 'Ubuntu', sans-serif;
-  font-size: 20px;
   color: #fff;
+  transition: all 0.3s ease;
 }
 
 body {
@@ -10,13 +10,19 @@ body {
 
 h1 {
   font-size: 3.5rem;
-  text-shadow: 1px 1px 1px rgba(0,0,0,0.4);
   margin: .2rem;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.4);
+}
+
+h2 {
+  font-weight: normal;
+  margin: 0;
 }
 
 p { margin: .2rem; }
-p.medium-size { font-size: 1.32rem; }
-p.small-size { font-size: 1rem; }
+
+.medium-size { font-size: 1.32rem; }
+.small-size { font-size: 1rem; }
 
 a, a:hover, a:visited { color: #fff; text-decoration: none; }
 a:hover { text-decoration: underline; }
@@ -31,7 +37,11 @@ ul li:first-child { margin: 0; }
 ul li a { font-size: 2rem; }
 ul li a:hover { text-decoration: none !important; }
 
-#content { margin-top: 6rem; }
+#content, #links { margin-top: 6rem ; }
 
-#links { margin-top: 6rem; }
+#content {
+  text-align: center;
+  transition: margin 0.3s ease;
+}
+
 #links .contacts { margin-top: .5rem;}
