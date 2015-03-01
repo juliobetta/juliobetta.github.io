@@ -1,0 +1,37 @@
+html, body {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 20px;
+  color: #fff;
+}
+
+body {
+  background: url('../images/background-dot-pattern.png') repeat;
+}
+
+h1 {
+  font-size: 3.5rem;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.4);
+  margin: .2rem;
+}
+
+p { margin: .2rem; }
+p.medium-size { font-size: 1.32rem; }
+p.small-size { font-size: 1rem; }
+
+a, a:hover, a:visited { color: #fff; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+ul { margin: 0; padding:0; }
+ul li {
+  list-style: none;
+  display: inline-block;
+  margin-left: .5rem;
+}
+ul li:first-child { margin: 0; }
+ul li a { font-size: 2rem; }
+ul li a:hover { text-decoration: none !important; }
+
+#content { margin-top: 6rem; }
+
+#links { margin-top: 6rem; }
+#links .contacts { margin-top: .5rem;}
