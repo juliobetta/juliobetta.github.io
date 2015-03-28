@@ -45,3 +45,17 @@ ul li a:hover { text-decoration: none !important; }
 }
 
 #links .contacts { margin-top: .5rem;}
+#links a {
+  transition: all 0.3s ease;
+  text-shadow: 1px 3px 5px rgba(0,0,0,.1), 0 0 0 #000, 1px 3px 4px rgba(0,0,0,.1);
+}
+#links a:hover {
+  transition: all 0.3s ease;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.4);
+}
+
+#links a.github:hover { color: #333; }
+#links a.fb:hover { color: #49649F; }
+#links a.linkedin:hover { color: #1B86BC; }
+#links a.twitter:hover { color: #54AAEC; }
+#links a.gplus:hover { color: #D73D32; }
