@@ -5,7 +5,7 @@ html, body {
 }
 
 body {
-  background: url('../images/background-dot-pattern.png') repeat;
+  background-color: rgb(147, 189, 98);
 }
 
 h1 {
